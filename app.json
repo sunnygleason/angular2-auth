@@ -1,0 +1,6 @@
+{
+  "name": "Angular2 Auth",
+  "description": "Sample Authentication App for Angular 2",
+  "repository": "https://github.com/sunnygleason/angular2-auth",
+  "keywords": ["node", "express", "static", "angular"]
+}

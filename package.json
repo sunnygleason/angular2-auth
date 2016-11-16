@@ -1,0 +1,30 @@
+{
+  "name": "angular2-auth",
+  "version": "0.2.0",
+  "description": "Sample Authentication App for Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.13.3",
+    "express-jwt": "^5.1.0"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunnygleason/angular2-auth"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "angular"
+  ],
+  "author": "Sunny Gleason",
+  "contributors": [],
+  "license": "MIT"
+}

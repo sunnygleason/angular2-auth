@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular 2 - Authentication App</title>
+    <script src="//cdn.auth0.com/js/lock-9.0.min.js"></script>
+    <script src="//code.angularjs.org/2.0.0-beta.8/angular2-polyfills.js"></script>
+    <script src="//code.angularjs.org/tools/system.js"></script>
+    <script src="//code.angularjs.org/tools/typescript.js"></script>
+    <script src="//code.angularjs.org/2.0.0-beta.8/Rx.js"></script>
+    <script src="//code.angularjs.org/2.0.0-beta.8/angular2.min.js"></script>
+    <script src="//code.angularjs.org/2.0.0-beta.8/router.min.js"></script>
+    <script src="//code.angularjs.org/2.0.0-beta.8/http.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <script>
+      System.config({
+        transpiler: 'typescript',
+        typescriptOptions: {
+          emitDecoratorMetadata: true
+        },
+        map: {
+          app: './app'
+        },
+        packages: {
+          app: {
+            main: './main.ts',
+            defaultExtension: 'ts'
+          }
+        }
+      });
+
+    System
+      .import('app')
+      .catch(console.error.bind(console));
+    </script>
+  </head>
+  <body class="container">
+    <my-app></my-app>
+  </body>
+</html>
